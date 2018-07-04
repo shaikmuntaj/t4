@@ -1,0 +1,94 @@
+.main{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+/*  for inner div classes*/
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6,
+.t7,
+.t8,
+.t9{
+  width:100%;
+  box-shadow:3px 3px 3px red;
+  padding:1%;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+h3{
+    color:#0000ff;
+    }
+    h1{
+      color:#000000;
+    }
+  }
+  @media only screen and (min-width:481px) and (max-width:768px){
+    .main{
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+    }
+    h3{
+        color:#0000ff;
+        text-align:center;
+        }
+        h1{
+          color:#000000;
+        }
+    .t1,
+    .t6{
+      width: 93%;
+      border-radius:10px;
+    }
+    .t2,
+    .t3,
+    .t4,
+    .t5{
+      width:45%;
+      border-radius:10px;
+    }
+    .t7,
+    .t8,
+    .t9{
+      width:30%;
+      border-radius:10px;
+    }
+  }
+  @media only screen and (min-width:769px) and (max-width:1300px){
+    .main{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    h3{
+        color:#0000ff;
+        text-align:center;
+        }
+        h1{
+          color:#000000;
+        }
+        .t1{
+          width:60%;
+          border-radius:10px;
+        }
+       .t2{
+         width:30%;
+         border-radius:10px;
+       }
+       .t3,
+       .t4,
+       .t5{
+         width:30%;
+         border-radius:10px;
+       }
+       .t6,
+       .t7,
+       .t8,
+       .t9{
+         width:45%;
+         border-radius:10px;
+       }
+     }
